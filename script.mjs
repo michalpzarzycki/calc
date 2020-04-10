@@ -9,7 +9,8 @@ const CALCULATION_BUTTONS = document.querySelectorAll('input[type="button"]')
 
 
 
-
+let newCalc = new Calculator(5,6)
+console.log(newCalc)
 
 
 function handleCalculation(event) {
