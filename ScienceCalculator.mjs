@@ -1,4 +1,4 @@
-//Science calc 
+
 
 export default class ScienceCalculator {
     constructor(...args) {
