@@ -8,7 +8,7 @@ export default class StandardCalculator extends ScienceCalculator {
     }
     // StandardCalc doesnt check the types
     check () {
-        return true
+        return false
     }
 
 }

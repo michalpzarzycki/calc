@@ -1,4 +1,4 @@
-
+//Science Calclulator does care about data types, so he wont calculate if types ain't validate
 
 export default class ScienceCalculator {
     constructor(...args) {
@@ -35,25 +35,28 @@ export default class ScienceCalculator {
     }
 
 
-    scienceAdd() {
-        console.log("Science Add")
+    add() {
         if(this.check()) {
+            let numbers = this.args.map(x => new Number(x))
+            return numbers.reduce((item, acc) => item + acc)
+        } else {
             return [...this.args].reduce((item, acc) => item + acc)
+
         }
     }
-    scienceSubstract() {
+    substract() {
         console.log("Science Add")
         if(this.check()) {
             return [...this.args].reduce((item, acc) => item - acc)
         }
     }
-    scienceMultiply() {
+    multiply() {
         console.log("Science Add")
         if(this.check()) {
             return [...this.args].reduce((item, acc) => item * acc)
         }
     }
-    scienceDivide() {
+    divide() {
         console.log("Science Add")
         if(this.check()) {
             return [...this.args].reduce((item, acc) => item / acc)
