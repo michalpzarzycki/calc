@@ -1,3 +1,7 @@
+const INPUT_1 = document.getElementById("1");
+const INPUT_2 = document.getElementById("2");
+
+
 // Calculator
 class Calculator extends StandardCalculator{
     constructor(...args) {
