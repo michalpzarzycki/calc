@@ -5,7 +5,7 @@ export default class Calculator extends StandardCalculator{
         super()
         this.args = [...args]
     }
-
+  
     add() {
         console.log("HEJ")
         }

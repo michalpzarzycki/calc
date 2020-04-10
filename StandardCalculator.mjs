@@ -6,6 +6,9 @@ export default class StandardCalculator extends ScienceCalculator {
         super(...args)
     
     }
+    check () {
+        return true
+    }
 
    //standard multiply
    //standard divide
