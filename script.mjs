@@ -1,11 +1,13 @@
 import Calculator from './Calculator.mjs'
+import ScienceCalculator from './ScienceCalculator.mjs'
 
 //DOM ELEMENTS
 const INPUT_1 = document.getElementById("1");
 const INPUT_2 = document.getElementById("2");
 const CALCULATION_BUTTONS = document.querySelectorAll('input[type="button"]')
 
-
+let Science  = new ScienceCalculator(5,6,6, "asdasd", null, true)
+Science.check()
 
 
 

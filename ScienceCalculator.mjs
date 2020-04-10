@@ -6,7 +6,7 @@ export default class ScienceCalculator {
     }
     
     check() {
-        //First, I created an empty array where I am gonna put all fields numbers which ain't contain a number
+        //First, I created an empty array where I am gonna put all fields of numbers which ain't contain a number
         let notNumbersFields = []
 
         //Loop on arguments from constructor
@@ -25,7 +25,7 @@ export default class ScienceCalculator {
         console.log(`${notNumbersFields.length === 0 ? "Everything's okay!": finalnotOKStatement}`)
 
         //I wanna to check() method return if args are valid or not so: 
-        
+
         if(notNumbersFields.length === 0) {
             return true
         } else {
