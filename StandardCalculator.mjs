@@ -2,8 +2,9 @@ import ScienceCalculator from './ScienceCalculator.mjs'
 //Normal calculator class
 
 export default class StandardCalculator extends ScienceCalculator {
-    constructor() {
-        super()
+    constructor(...args) {
+        super(...args)
+    
     }
 
    //standard multiply
