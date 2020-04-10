@@ -39,10 +39,7 @@ export default class ScienceCalculator {
         if(this.check()) {
             let numbers = this.args.map(x => new Number(x))
             return numbers.reduce((item, acc) => item + acc)
-        } else {
-            return [...this.args].reduce((item, acc) => item + acc)
-
-        }
+        } 
     }
     substract() {
         console.log("Science Add")

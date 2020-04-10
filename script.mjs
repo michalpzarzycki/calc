@@ -33,7 +33,10 @@ function handleScienceCalculation(event) {
     let value_2 = INPUT_2.value
     let newCalc = new ScienceCalculator(value_1, value_2)
     let added = newCalc.add()
-    console.log("SCIENCE", added)
+    let multiplied = newCalc.multiply()
+    let substracted = newCalc.substract()
+    let divided = newCalc.divide()
+    console.log("SCIENCE", [added, multiplied, substracted, divided])
 
 }
 // EVENT LISTENERS
