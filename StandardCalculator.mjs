@@ -6,12 +6,9 @@ export default class StandardCalculator extends ScienceCalculator {
         super(...args)
     
     }
+    // StandardCalc doesnt check the types
     check () {
         return true
     }
 
-   //standard multiply
-   //standard divide
-   //standard substract
-   //standard add
 }

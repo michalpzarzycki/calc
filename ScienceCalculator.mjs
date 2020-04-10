@@ -41,9 +41,24 @@ export default class ScienceCalculator {
             return [...this.args].reduce((item, acc) => item + acc)
         }
     }
-   //standard divide
-   //standard substract
-   //standard add
+    scienceSubstract() {
+        console.log("Science Add")
+        if(this.check()) {
+            return [...this.args].reduce((item, acc) => item - acc)
+        }
+    }
+    scienceMultiply() {
+        console.log("Science Add")
+        if(this.check()) {
+            return [...this.args].reduce((item, acc) => item * acc)
+        }
+    }
+    scienceDivide() {
+        console.log("Science Add")
+        if(this.check()) {
+            return [...this.args].reduce((item, acc) => item / acc)
+        }
+    }
 
    //sinus
    //cosinus
