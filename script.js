@@ -1,5 +1,5 @@
 // Calculator
-class Calculator {
+class Calculator extends StandardCalculator{
     constructor(...args) {
         this.args = [...args]
     }
@@ -14,7 +14,7 @@ class Calculator {
 
 //Normal calculator class
 
-class StandardCalculator {
+class StandardCalculator extends ScienceCalculator {
     constructor(...args) {
         this.args = [...args]
     }
@@ -41,7 +41,7 @@ class ScienceCalculator {
    //cosinus
    //tangens
    //ctg
-   
+
 }
 
 //handle calculation
