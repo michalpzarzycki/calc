@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calc</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        .resultContainer {
+            display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+        .resultContainer > * {
+            display: flex;
+
+        }
+        i {
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Calculator</h1>
@@ -14,6 +37,24 @@
         <input type="button" value="Standard Calc( fixed to 5 digits)">
         <input type="button" value="Science calc">
     </form>
+    <section class="resultContainer">
+        <div class="addContainer">
+            <i>&#43;</i>
+            <p class="addResult">5</p>
+        </div>
+        <div class="substractContainer">
+            <i>&#8722;</i>
+            <p class="substractResult">10</p>
+        </div>
+        <div class="multiplyContainer">
+            <i>&#215;</i>
+            <p class="multiplyResult">15</p>
+        </div>
+        <div class="divideContainer">
+            <i>&#247;</i>
+            <p class="divideResult">2</p>
+        </div>
+    </section>
     <script type="module" src="./script.mjs"></script>
     <script type="module" src='./ScienceCalculator.mjs'></script>
     <script type="module" src="./StandardCalculator.mjs"></script>

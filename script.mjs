@@ -23,7 +23,10 @@ function handleStandardCalculation(event) {
     let value_2 = INPUT_2.value
     let newCalc = new StandardCalculator(value_1, value_2)
     let added = newCalc.add()
-    console.log(added)
+    let multiplied = newCalc.multiply()
+    let substracted = newCalc.substract()
+    let divided = newCalc.divide()
+    console.log("Standard",[added, multiplied, divided, substracted])
 
 }
 //handle Science calculation
